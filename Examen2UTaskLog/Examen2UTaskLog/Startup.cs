@@ -63,7 +63,7 @@ namespace Examen2UTaskLog
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=TaskLists}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
